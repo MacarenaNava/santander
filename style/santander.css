@@ -4,9 +4,12 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    background-image: url("https://www.santander.com.ar/banco/wcm/connect/0f25277b-d7b9-43d6-9be7-947ddcb586c1/grid-background.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-0f25277b-d7b9-43d6-9be7-947ddcb586c1-n8KKKcu");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
 }
 .container {
-    background-color: #e4f1f5;
     width: 100vw;
     height: 100vh;
     padding-left: 70px;
