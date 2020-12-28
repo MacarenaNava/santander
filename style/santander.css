@@ -17,9 +17,11 @@
 .display-flex {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .spacebetweer {
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 .boton {
     background-color: white;
@@ -57,7 +59,7 @@ hr {
     margin-top: 20px;
 }
 .card {
-    background-color: ghostwhite;
+    background-color: #fff;
     border: 1px solid gray;
     border-radius: 15px;
     width: 15vw;
@@ -69,3 +71,11 @@ hr {
     flex-direction: column;
     
 }
+.card-sorpresa {
+    height: 360px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 15vw;
+}
+
